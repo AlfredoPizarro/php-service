@@ -3,9 +3,9 @@
   <title>Servicio1 Produccion</title>
  </head>
  <body>
- <?php 
- $hostname = gethostname(); 
- echo 'Testing de Balanceo. El pod actual es $hostname';
+ <?php
+$hostname = gethostname();
+ print "Testing de Balanceo y replicas. El pod actual es: <b> $hostname</b>";
 ?>
  </body>
 </html>
