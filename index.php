@@ -1,11 +1,11 @@
-<html>
- <head>
-  <title>Servicio1 Produccion</title>
- </head>
- <body>
- <?php
+<?php
+date_default_timezone_set('America/Santiago');
 $hostname = gethostname();
- print "Testing de Balanceo y replicas. El pod actual es: <b> $hostname</b>";
+$date = date('d/m/Y h:i:s a', time());
+$myObj->pod = $hostname;
+$myObj->fecha = $date;
+
+$myJSON = json_encode($myObj);
+
+echo $myJSON;
 ?>
- </body>
-</html>
