@@ -1,3 +1,6 @@
+<p> HOST DATA </p>
+<b> DATA </b>
+
 <?php
 $hostname = gethostname();
 $date = date('d-m-Y h:i:s a', time());
