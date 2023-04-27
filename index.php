@@ -1,5 +1,3 @@
-<p> HOST DATA </p>
-<b> DATA </b>
 
 <?php
 $hostname = gethostname();
