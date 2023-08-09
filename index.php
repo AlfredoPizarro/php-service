@@ -8,4 +8,4 @@ $myObj->fecha = $date;
 $myJSON = json_encode($myObj);
 echo $myJSON;
 ?>
-<p>version3</p>
+<p>version4</p>
